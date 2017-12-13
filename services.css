@@ -1,0 +1,47 @@
+    h1 {
+        text-align: center;
+        font-size: 36px;
+    }
+    li {
+        text-align: center;
+        font-family: serif;
+        font-size: 20px;
+    }
+    .main-header {
+        padding-top: 150px;
+        height: 750px;
+        background: url("imgs/otto.jpg") no-repeat center;
+        background-size: cover;
+    }
+    nav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+    #stay {
+        width: 300px;
+        margin: auto;
+        display: flex;
+    }
+    a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        float: left;
+    }
+    .footer {
+        padding: 7px 7px;
+        background-color: #333;
+    }
+    p {
+        text-align: center;
+        font-weight: bold;
+        margin: auto;
+    }
+    a:hover:not(.nav) {
+    background-color: #800;
+}

@@ -1,0 +1,66 @@
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+}
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+a:hover:not(.nav) {
+    background-color: #800;
+}
+.main-header {
+    padding-top: 150px;
+    height: 750px;
+    background: url("imgs/town.jpg") no-repeat center;
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+    color: white;
+    width: 45px;
+    margin: auto;
+    display: flex;
+     animation-duration: 5s;
+      animation-name: title;
+      animation-iteration-count: infinite;
+
+
+}
+ul {
+    text-align: left;
+    padding: 100px;
+}
+#cart{
+    width: 300px;
+    display: flex;
+    float: right;
+    padding-top: 50px;
+}
+li {
+    font-size: 30px;
+    font-family: serif;
+    color: white;
+    padding-bottom: 50px;
+}
+.bottom {
+    background-color: #333
+}
+ @keyframes title {
+      50% {
+        font-size: 1em;
+      }
+
+      50% {
+        font-size: 10em;
+      }
+
+      75% {
+        font-size: 1em; }
