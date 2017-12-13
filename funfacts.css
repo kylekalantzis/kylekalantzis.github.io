@@ -19,7 +19,7 @@ a:hover:not(.nav) {
 .main-header {
     padding-top: 150px;
     height: 750px;
-    background: url("imgs/town.jpg") no-repeat center;
+    background: url("imgs/town.JPG") no-repeat center;
     background-size: cover;
 }
 h1 {
